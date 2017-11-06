@@ -67,11 +67,6 @@ group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 
-intent_script:
-    GetTemprature:
-        speech:
-            text: Hello there
-
 mqtt:
    broker: 192.168.0.178
    
@@ -137,6 +132,16 @@ intent_script:
       - service: light.toggle
         data_template:
           entity_id: light.{{ room | replace(" ","_") }}
+  ActivateLightColor:
+    action:
+      - service: light.on
+	data_teplate:
+          entity_id: light.{{ objectLocation | replace(" ","_") }}
+  DeactivateObject:
+    action:
+      - service: light.off
+	data_template:
+	   entity_id: light.{{ objectLocation | replace("","_")}}
 
 logger:
   default: warning
