@@ -1,0 +1,96 @@
+2017-11-05 19:20:37 ERROR (SyncWorker_0) [homeassistant.util.yaml] YAML file /config/configuration.yaml contains duplicate key "intent_script". Check lines 74 and 136.
+2017-11-05 19:20:37 ERROR (SyncWorker_0) [homeassistant.util.yaml] YAML file /config/configuration.yaml contains duplicate key "intent_script". Check lines 136 and 148.
+2017-11-05 19:21:04 ERROR (MainThread) [homeassistant.loader] Unable to find component apiai
+2017-11-05 19:21:04 ERROR (MainThread) [homeassistant.setup] Setup failed for apiai: Component not found.
+2017-11-05 19:21:14 WARNING (MainThread) [homeassistant.setup] Setup of sensor is taking over 10 seconds.
+2017-11-05 19:21:23 WARNING (MainThread) [homeassistant.setup] Setup of tts is taking over 10 seconds.
+2017-11-05 19:21:41 WARNING (SyncWorker_11) [netdisco.ssdp] Found malformed XML at http://192.168.0.109:9080: status=ok
+2017-11-05 19:35:49 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on hermes/nlu/intentParsed: {"input":"the law","intent":{"intentName":"user_GryVx32DP6Q__ToggleLights","probability":0.69230866},"slots":[]}
+2017-11-05 19:35:49 ERROR (MainThread) [homeassistant.core] Invalid service data for light.toggle: Entity ID light. is an invalid entity id for dictionary value @ data['entity_id']. Got 'light.'
+2017-11-05 19:36:24 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.samsung_led55_ue55h6200 is taking over 10 seconds
+2017-11-05 19:36:25 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-05 19:49:25 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on hermes/nlu/intentParsed: {"input":"the ruler","intent":{"intentName":"user_GryVx32DP6Q__ToggleLights","probability":0.69230866},"slots":[]}
+2017-11-05 19:49:25 ERROR (MainThread) [homeassistant.core] Invalid service data for light.toggle: Entity ID light. is an invalid entity id for dictionary value @ data['entity_id']. Got 'light.'
+2017-11-05 20:15:05 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.samsung_led55_ue55h6200 is taking over 10 seconds
+2017-11-05 20:15:06 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-05 20:19:15 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on hermes/nlu/intentParsed: {"input":"should the issue","intent":{"intentName":"user_GryVx32DP6Q__ToggleLights","probability":0.69230866},"slots":[]}
+2017-11-05 20:19:15 ERROR (MainThread) [homeassistant.core] Invalid service data for light.toggle: Entity ID light. is an invalid entity id for dictionary value @ data['entity_id']. Got 'light.'
+2017-11-05 20:28:29 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 1
+2017-11-05 20:29:40 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 0
+2017-11-05 20:46:46 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.samsung_led55_ue55h6200 is taking over 10 seconds
+2017-11-05 20:46:47 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-05 20:51:34 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 1
+2017-11-05 20:52:47 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.samsung_led55_ue55h6200 is taking over 10 seconds
+2017-11-05 20:52:48 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-05 21:11:35 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 0
+2017-11-05 21:14:26 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 1
+2017-11-05 21:18:36 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 0
+2017-11-05 21:21:39 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 1
+2017-11-05 21:22:26 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 0
+2017-11-05 21:24:09 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on hermes/nlu/intentParsed: {"input":"please provide the circus","intent":{"intentName":"user_GryVx32DP6Q__ToggleLights","probability":0.69230866},"slots":[]}
+2017-11-05 21:24:09 ERROR (MainThread) [homeassistant.core] Invalid service data for light.toggle: Entity ID light. is an invalid entity id for dictionary value @ data['entity_id']. Got 'light.'
+2017-11-05 21:29:32 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on hermes/nlu/intentParsed: {"input":"hopefully it mostly live in delhi lesson to build a","intent":{"intentName":"user_GryVx32DP6Q__ToggleLights","probability":0.5047865},"slots":[]}
+2017-11-05 21:29:32 ERROR (MainThread) [homeassistant.core] Invalid service data for light.toggle: Entity ID light. is an invalid entity id for dictionary value @ data['entity_id']. Got 'light.'
+2017-11-05 21:30:43 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.samsung_led55_ue55h6200 is taking over 10 seconds
+2017-11-05 21:30:44 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-05 21:31:37 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on hermes/nlu/intentParsed: {"input":"please give me the key key key key","intent":{"intentName":"user_GryVx32DP6Q__ToggleLights","probability":0.51954234},"slots":[]}
+2017-11-05 21:31:37 ERROR (MainThread) [homeassistant.core] Invalid service data for light.toggle: Entity ID light. is an invalid entity id for dictionary value @ data['entity_id']. Got 'light.'
+2017-11-05 21:39:47 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on hermes/nlu/intentParsed: {"input":"the sooner the gallery","intent":{"intentName":"user_GryVx32DP6Q__ToggleLights","probability":0.69230866},"slots":[]}
+2017-11-05 21:39:47 ERROR (MainThread) [homeassistant.core] Invalid service data for light.toggle: Entity ID light. is an invalid entity id for dictionary value @ data['entity_id']. Got 'light.'
+2017-11-05 21:45:15 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on hermes/nlu/intentParsed: {"input":"the overnight","intent":{"intentName":"user_GryVx32DP6Q__ToggleLights","probability":0.69230866},"slots":[]}
+2017-11-05 21:45:15 ERROR (MainThread) [homeassistant.core] Invalid service data for light.toggle: Entity ID light. is an invalid entity id for dictionary value @ data['entity_id']. Got 'light.'
+2017-11-05 21:49:43 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 1
+2017-11-05 21:50:16 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 0
+2017-11-05 22:09:46 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.samsung_led55_ue55h6200 is taking over 10 seconds
+2017-11-05 22:09:47 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-05 22:16:21 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on hermes/nlu/intentParsed: {"input":"ethics in business and receive a new jersey","intent":{"intentName":"user_GryVx32DP6Q__ToggleLights","probability":0.5232314},"slots":[]}
+2017-11-05 22:16:21 ERROR (MainThread) [homeassistant.core] Invalid service data for light.toggle: Entity ID light. is an invalid entity id for dictionary value @ data['entity_id']. Got 'light.'
+2017-11-05 22:20:28 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on hermes/nlu/intentParsed: {"input":"in a season","intent":{"intentName":"user_GryVx32DP6Q__ToggleLights","probability":0.5440084},"slots":[]}
+2017-11-05 22:20:29 ERROR (MainThread) [homeassistant.core] Invalid service data for light.toggle: Entity ID light. is an invalid entity id for dictionary value @ data['entity_id']. Got 'light.'
+2017-11-05 22:24:58 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.samsung_led55_ue55h6200 is taking over 10 seconds
+2017-11-05 22:24:59 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-05 22:28:24 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/livingroom/lightstate: 0
+2017-11-05 22:28:31 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 1
+2017-11-05 22:32:32 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 0
+2017-11-05 23:21:24 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 1
+2017-11-05 23:23:06 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/mbedroom/lightstate: 1
+2017-11-05 23:26:34 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/mbedroom/lightstate: 0
+2017-11-05 23:27:34 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 0
+2017-11-06 01:49:02 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 1
+2017-11-06 01:49:22 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 0
+2017-11-06 01:49:29 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/livingroom/lightstate: 1
+2017-11-06 01:49:38 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/livingroom/lightstate: 0
+2017-11-06 02:01:44 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on hermes/nlu/intentParsed: {"input":"does the lights in the living room","intent":{"intentName":"user_GryVx32DP6Q__ToggleLights","probability":0.85010415},"slots":[{"rawValue":"living room","value":{"kind":"Custom","value":"living room"},"range":{"start":23,"end":34},"entity":"snips/default--room","slotName":"room"}]}
+2017-11-06 02:01:44 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/livingroom/lightstate: 1
+2017-11-06 02:02:23 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on hermes/nlu/intentParsed: {"input":"oh lights in the living room","intent":{"intentName":"user_GryVx32DP6Q__ToggleLights","probability":0.86982757},"slots":[{"rawValue":"living room","value":{"kind":"Custom","value":"living room"},"range":{"start":17,"end":28},"entity":"snips/default--room","slotName":"room"}]}
+2017-11-06 02:02:23 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/livingroom/lightstate: 0
+2017-11-06 02:03:50 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.samsung_led55_ue55h6200 is taking over 10 seconds
+2017-11-06 02:03:51 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 02:37:23 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.samsung_led55_ue55h6200 is taking over 10 seconds
+2017-11-06 02:37:24 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 03:15:30 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.samsung_led55_ue55h6200 is taking over 10 seconds
+2017-11-06 03:15:31 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 03:54:32 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.samsung_led55_ue55h6200 is taking over 10 seconds
+2017-11-06 03:54:33 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 04:32:38 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.samsung_led55_ue55h6200 is taking over 10 seconds
+2017-11-06 04:32:39 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 04:32:50 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 04:33:01 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 04:33:12 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 04:33:23 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 04:33:34 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 04:33:45 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 04:33:56 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 04:34:07 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 04:34:18 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 04:34:29 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 04:59:57 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.samsung_led55_ue55h6200 is taking over 10 seconds
+2017-11-06 04:59:58 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2017-11-06 05:21:00 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on hermes/nlu/intentParsed: {"input":"the lights in the loop","intent":{"intentName":"user_GryVx32DP6Q__ToggleLights","probability":0.776671},"slots":[]}
+2017-11-06 05:21:00 ERROR (MainThread) [homeassistant.core] Invalid service data for light.toggle: Entity ID light. is an invalid entity id for dictionary value @ data['entity_id']. Got 'light.'
+2017-11-06 05:58:01 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on hermes/nlu/intentParsed: {"input":"the less ally","intent":{"intentName":"user_GryVx32DP6Q__ToggleLights","probability":0.69230866},"slots":[]}
+2017-11-06 05:58:01 ERROR (MainThread) [homeassistant.core] Invalid service data for light.toggle: Entity ID light. is an invalid entity id for dictionary value @ data['entity_id']. Got 'light.'
+2017-11-06 05:59:12 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/livingroom/lightstate: 1
+2017-11-06 06:03:26 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 1
+2017-11-06 06:05:24 DEBUG (MainThread) [homeassistant.components.mqtt] Received message on /myhouse/hall/lightstate: 0
+2017-11-06 06:18:02 WARNING (MainThread) [aiohttp.websocket] websocket connection is closing.

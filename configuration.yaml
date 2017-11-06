@@ -1,0 +1,153 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 51.145843
+  longitude: 4.858
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 14
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Brussels
+  # Customization file
+  customize: !include customize.yaml
+
+# Show links to resources in log and frontend
+introduction:
+
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+http:
+  base_url: https://olympus.mangelschots.org:8123
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
+  api_password: !secret http_password
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time
+history:
+
+# View all events in a logbook
+logbook:
+
+# Enables a map showing the location of tracked devices
+map:
+
+# Track the sun
+sun:
+
+# Weather prediction
+sensor:
+  - platform: yr
+
+# Text to speech
+tts:
+  - platform: google
+  
+shopping_list:
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+
+intent_script:
+    GetTemprature:
+        speech:
+            text: Hello there
+
+mqtt:
+   broker: 192.168.0.178
+   
+
+light:
+   platform: mqtt
+   name: "Master Bedroom"
+   state_topic: "/myhouse/mbedroom/lightstate"
+   command_topic: "/myhouse/mbedroom/light"
+   payload_on: "1"
+   payload_off: "0"
+   
+light 2:
+   platform: mqtt
+   name: "Living room"
+   state_topic: "/myhouse/livingroom/lightstate"
+   command_topic: "/myhouse/livingroom/light"
+   payload_on: "1"
+   payload_off: "0"
+   
+light 3:
+   platform: mqtt
+   name: "Hall"
+   state_topic: "/myhouse/hall/lightstate"
+   command_topic: "/myhouse/hall/light"
+   payload_on: "1"
+   payload_off: "0"
+   
+light 4:
+   platform: mqtt
+   name: "Babyroom"
+   state_topic: "/myhouse/babyroom/lightstate"
+   command_topic: "/myhouse/babyroom/light"
+   payload_on: "1"
+   payload_off: "0"
+
+light 5:
+   platform: mqtt
+   name: "Dressing"
+   state_topic: "/myhouse/dressing/lightstate"
+   command_topic: "/myhouse/dressing/light"
+   payload_on: "1"
+   payload_off: "0"
+
+light 6:
+   platform: mqtt
+   name: "Bathroom"
+   state_topic: "/myhouse/bathroom/lightstate"
+   command_topic: "/myhouse/bathroom/light"
+   payload_on: "1"
+   payload_off: "0"
+
+device_tracker:
+   platform: locative
+  
+apiai:
+
+intent_script:
+  GetTemperature:
+    speech:
+      text: Vincent is at {{ states("device_tracker.8d6a1b81840cdde1") }} 
+
+logger:
+  default: warning
+  logs:
+    homeassistant.components.mqtt: debug
+
+snips:
+
+intent_script:
+  ToggleLights:
+    action:
+      - service: light.toggle
+        data_template:
+          entity_id: light.{{ room | replace(" ","_") }}
+  
+          
+
